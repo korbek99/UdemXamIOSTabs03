@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--First Album-->
+        <scene sceneID="hNz-n2-bh7">
+            <objects>
+                <viewController id="9pv-A4-QxB" customClass="FirstViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
+                        <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sodom - in the sign.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="eSa-6C-dz6">
+                                <rect key="frame" x="0.0" y="86" width="375" height="407"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="eSa-6C-dz6" secondAttribute="trailing" id="2rK-ao-4pO"/>
+                            <constraint firstItem="eSa-6C-dz6" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" constant="66" id="AJF-oZ-KtT"/>
+                            <constraint firstItem="eSa-6C-dz6" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" id="DMn-5z-W2G"/>
+                            <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="eSa-6C-dz6" secondAttribute="bottom" constant="125" id="GlF-yA-JCh"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="First Album" image="First" id="acW-dT-cKf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="749.60000000000002" y="-320.68965517241384"/>
+        </scene>
+        <!--Third Album-->
+        <scene sceneID="Thx-Bc-1Zl">
+            <objects>
+                <viewController id="OcZ-tA-Tx8" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tsX-UH-cLI"/>
+                        <viewControllerLayoutGuide type="bottom" id="mm8-a7-Sq7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1me-Ts-Ol4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sodom-AgentOrange.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="wHz-1m-C76">
+                                <rect key="frame" x="0.0" y="83" width="375" height="407"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="wHz-1m-C76" firstAttribute="leading" secondItem="1me-Ts-Ol4" secondAttribute="leading" id="74G-9w-kWR"/>
+                            <constraint firstAttribute="trailing" secondItem="wHz-1m-C76" secondAttribute="trailing" id="BiN-pp-t6B"/>
+                            <constraint firstItem="mm8-a7-Sq7" firstAttribute="top" secondItem="wHz-1m-C76" secondAttribute="bottom" constant="128" id="WIM-aH-hJI"/>
+                            <constraint firstItem="wHz-1m-C76" firstAttribute="top" secondItem="tsX-UH-cLI" secondAttribute="bottom" constant="63" id="gk2-s4-FcL"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Third Album" id="KFb-aD-m0t"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WQd-OJ-XJM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-5" y="660"/>
+        </scene>
+        <!--Second Album-->
+        <scene sceneID="wg7-f3-ORb">
+            <objects>
+                <viewController id="8rJ-Kc-sve" customClass="SecondViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="L7p-HK-0SC"/>
+                        <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sodom - persecution.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="DjE-2R-KyC">
+                                <rect key="frame" x="0.0" y="84" width="375" height="407"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="DjE-2R-KyC" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" constant="64" id="RCg-Wz-sLe"/>
+                            <constraint firstAttribute="trailing" secondItem="DjE-2R-KyC" secondAttribute="trailing" id="Z0R-Kf-YkL"/>
+                            <constraint firstItem="Djb-ko-YwX" firstAttribute="top" secondItem="DjE-2R-KyC" secondAttribute="bottom" constant="127" id="kfb-dP-k5W"/>
+                            <constraint firstItem="DjE-2R-KyC" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leading" id="kzN-Y8-eNo"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Second Album" image="Second" id="cPa-gy-q4n"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="360"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="yl2-sM-qoP">
+            <objects>
+                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
+                        <rect key="frame" x="0.0" y="519" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
+                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                        <segue destination="OcZ-tA-Tx8" kind="relationship" relationship="viewControllers" id="NPY-df-qqv"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="First" width="30" height="30"/>
+        <image name="Second" width="30" height="30"/>
+        <image name="Sodom-AgentOrange.jpeg" width="400" height="400"/>
+        <image name="sodom - in the sign.jpg" width="600" height="600"/>
+        <image name="sodom - persecution.jpeg" width="225" height="225"/>
+    </resources>
+</document>
